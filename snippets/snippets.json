@@ -1,0 +1,48 @@
+{
+  "getElementById": {
+    "prefix": "gid",
+    "body": "const ${1:Name} = document.getElementById('${2:elementId}');${0}",
+    "description": "Find an element by element id"
+  },
+  "getElementByClass": {
+    "prefix": "gid",
+    "body": "const ${1:Name} = document.getElementClass('${2:elementClassName}');${0}",
+    "description": "Find an element by element Class"
+  },
+  "getElementsByTagName": {
+    "prefix": "gid",
+    "body": "const ${1:Name} = document.getElementsByTagName('${2:elementTagName}');${0}",
+    "description": "Find an element by element TagName"
+  },
+  "querySelector": {
+    "prefix": "dqs",
+    "body": "const ${1:varName} = document.querySelector('${2:cssSelector}');${0}",
+    "description": "Gets the element using document.querySelector"
+  },
+  "querySelectorAll": {
+    "prefix": "dqa",
+    "body": "const ${1:varName} = document.querySelectorAll('${2:elementId}');${0}",
+    "description": "Gets the elements using document.querySelectorAll"
+  },
+  "createElement": {
+    "prefix": "dce",
+    "body": "const ${1:varName} = document.createElement('${2:elementName}');${0}",
+    "description": "Creates an element using document.createElement"
+  },
+
+  "removeChild": {
+    "prefix": "drc",
+    "body": "document.removeChild(${1:element})",
+    "description": "Remove an HTML element"
+  },
+  "replaceChild": {
+    "prefix": "drpc",
+    "body": "document.replaceChild(${1:new}, ${1:old})",
+    "description": "Replace an HTML element"
+  },
+  "write": {
+    "prefix": "dw",
+    "body": "document.write(${1:text})",
+    "description": "Write into the HTML output stream"
+  }
+}

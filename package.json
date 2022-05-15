@@ -1,0 +1,43 @@
+{
+  "name": "dom-code-snippets",
+  "displayName": "JavaScript DOM Code Snippets",
+  "description": "Code snippets for JavaScript DOM syntax.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.67.1"
+  },
+  "publisher": "Md Kawsar Islam Yeasin",
+  "homepage": "https://github.com/Mdkawsarislam2002/js-dom-snippet/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mdkawsarislam2002/js-dom-snippet/"
+  },
+  "icon": "./icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}

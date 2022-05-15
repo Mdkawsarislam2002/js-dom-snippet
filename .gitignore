@@ -1,0 +1,5 @@
+*.vsix
+vsc-extension-quickstart.md
+README.md
+CHANGELOG.md
+.vscodeignore
